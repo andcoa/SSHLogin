@@ -1,7 +1,7 @@
 # SSH Login Brute Force
 
 ## Objective  
-Simulate a brute-force attack using a custom Python script to enumerate SSH credentials and explore how such activity is logged and detected in a secure lab environment.
+Simulate a brute-force attack using a custom Python script to enumerate SSH credentials. Use the pwn module to interact with SSH servers and Paramiko for error handling. Open the passwords file and iterate over each password, clean the password, use the pwn module to make a SSH connection using that password and check if the response is valid. If the response is correct, the script stops checking passwords.
 
 ## Skills Learned  
 - **Python Scripting**: Developed a custom brute-force script using `pwntools` and `paramiko` libraries to automate SSH login attempts.  
@@ -27,12 +27,13 @@ Simulate a brute-force attack using a custom Python script to enumerate SSH cred
 2. **Create a Common Password Wordlist**  
    - Used `rockyou.txt` as the base and extracted the top common passwords into `ssh-common-passwords.txt`.
 
-3. **Build the Brute-Force Script**  
+3. **Built the Brute-Force Script**  
    - Wrote a Python script using `pwntools` and `paramiko` to automate SSH login attempts.  
    - Implemented logic to iterate through each password, attempt authentication, and detect success or failure.
 
-Use pwn module to interact with SSH servers. Paramiko used for error handling.
+<img width="632" height="728" alt="image" src="https://github.com/user-attachments/assets/8445042a-0188-46d7-8a67-b2ea607da6be" />
 
-Opening passwords file -> iterating over each password, cleaing the password, uses the pwn module to make a SSH connection using that password, checking if the response is valid. If the response is correct we stop checking passwords.
+Result:
 
-<img width="1008" height="644" alt="image" src="https://github.com/user-attachments/assets/880b36df-ff48-4915-810f-f97f22a15e1d" />
+<img width="632" height="728" alt="image" src="https://github.com/user-attachments/assets/74a1017f-a42f-4c86-9bb0-38350ff4c1dc" />
+
