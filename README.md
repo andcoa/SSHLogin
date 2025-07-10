@@ -31,7 +31,7 @@ Simulate a brute-force attack using a custom Python script to enumerate SSH cred
    - Wrote a Python script using `pwntools` and `paramiko` to automate SSH login attempts.  
    - Implemented logic to iterate through each password, attempt authentication, and detect success or failure.
 
-<img width="632" height="728" alt="image" src="https://github.com/user-attachments/assets/8445042a-0188-46d7-8a67-b2ea607da6be" />
+<img width="1005" height="651" alt="image" src="https://github.com/user-attachments/assets/b6a2189d-33b9-4100-8517-0c14bb65c63a" />
 
 Result:
 
