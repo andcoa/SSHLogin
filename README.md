@@ -14,7 +14,7 @@ Simulate a brute-force attack using a custom Python script to enumerate SSH cred
 - **Python**  
 - **pwntools**  
 - **paramiko**  
-- **Kali Linux / Ubuntu (Attacker Host)**  
+- **Kali Linux (Attacker Host)**  
 - **OpenSSH Server (Target)**  
 - **Custom Password List**
 
