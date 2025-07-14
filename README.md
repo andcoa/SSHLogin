@@ -18,6 +18,8 @@ Simulate a brute-force attack using a custom Python script to enumerate SSH cred
 - **OpenSSH Server (Target)**  
 - **Custom Password List**
 
+⚠️ Note: This script is for educational and ethical penetration testing purposes only, and should not be used against any system without explicit authorization.
+
 ## Steps
 
 1. **Set Up SSH Environment**  
